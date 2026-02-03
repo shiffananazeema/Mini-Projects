@@ -4,7 +4,7 @@
 
 ### 1. Core Logic Apps
 
-1. Calculator ![Demo](assets/demo.gif)
+1. Calculator ![Calculator](assets/calculator.gif)
 2. Tic-Tac-Toe
 3. Rock-Paper-Scissors
 4. Typing Speed Test
