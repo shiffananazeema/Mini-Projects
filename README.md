@@ -4,7 +4,9 @@
 
 ### 1. Core Logic Apps
 
-1. Calculator ![Calculator](assets/calculator.gif)
+<!-- markdownlint-disable MD033 -->
+
+1. Calculator <img src="assets/calculator.gif" alt="Calculator" width="40" />
 2. Tic-Tac-Toe
 3. Rock-Paper-Scissors
 4. Typing Speed Test
@@ -41,3 +43,5 @@
 3. Theme Switcher
 4. Image Gallery
 5. URL Shortener
+
+<!-- markdownlint-enable MD033 -->
