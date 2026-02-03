@@ -28,7 +28,7 @@
 
 ### 4. Forms & Validation
 
-1. Login / Signup UI
+1. Login / Signup
 2. Password Generator
 3. Multi-Step Form
 4. Survey / Quiz App
