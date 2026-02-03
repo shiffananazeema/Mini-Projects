@@ -6,7 +6,10 @@
 
 <!-- markdownlint-disable MD033 -->
 
-1. Calculator <img src="assets/calculator.gif" alt="Calculator" width="40" />
+1. Calculator
+
+   <img src="assets/calculator.gif" alt="Calculator" width="80" />
+
 2. Tic-Tac-Toe
 3. Rock-Paper-Scissors
 4. Typing Speed Test
