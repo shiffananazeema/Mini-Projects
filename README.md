@@ -8,17 +8,17 @@
 
 1. Calculator
 
-   <img src="assets/calculator.gif" alt="Calculator GUI" width="100" style="margin-right: 20px;" />
+   <img src="assets/calculator.gif" alt="Calculator GUI" style="margin-right: 20px;" />
    <img src="assets/terminal_calculator.gif" alt="Calculator Terminal" width="100" />
 
 2. Tic-Tac-Toe
 
-   <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" width="100" style="margin-right: 20px;" />
-   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100" height="150"/>
+   <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" style="margin-right: 20px;" />
+   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100"/>
 
 3. Rock-Paper-Scissors
 
-   <img src="assets\rock-paper-scissors.gif" alt="Tic-Tac-Toe Terminal" width="100" height="150"/>
+   <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="100"/>
 
 4. Typing Speed Test
 5. Stopwatch & Timer
