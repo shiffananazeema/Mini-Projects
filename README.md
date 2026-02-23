@@ -18,7 +18,7 @@
 
 3. Rock-Paper-Scissors
 
-   <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="100"/>
+   <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
 
 4. Typing Speed Test
 5. Stopwatch & Timer
