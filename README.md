@@ -17,6 +17,9 @@
    <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100" height="120"/>
 
 3. Rock-Paper-Scissors
+
+   <img src="assets\rock-paper-scissors.gif" alt="Tic-Tac-Toe Terminal" width="100" height="120"/>
+
 4. Typing Speed Test
 5. Stopwatch & Timer
 
