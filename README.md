@@ -1,6 +1,6 @@
 # Mini-Projects
 
-## Beginner Level Projects - 25
+## Beginner Level Projects
 
 ### 1. Core Logic Apps
 
@@ -20,8 +20,15 @@
 
    <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
 
-4. Typing Speed Test
-5. Stopwatch & Timer
+4. Dice Roller
+
+   <img src="assets\diceroll.gif" alt="Dice-Roll" width="150"/>
+
+5. Counter
+6. Digital Clock
+7. Stopwatch & Timer
+8. Temperature Conversion
+9. Typing Speed Test
 
 ### 2. Storage / CRUD Apps
 
