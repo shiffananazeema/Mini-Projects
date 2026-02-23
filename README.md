@@ -14,7 +14,7 @@
 2. Tic-Tac-Toe
 
    <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" width="100" style="margin-right: 20px;" />
-   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal"/>
+   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="150"/>
 
 3. Rock-Paper-Scissors
 
