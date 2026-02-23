@@ -14,11 +14,11 @@
 2. Tic-Tac-Toe
 
    <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" width="100" style="margin-right: 20px;" />
-   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100" height="120"/>
+   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100" height="150"/>
 
 3. Rock-Paper-Scissors
 
-   <img src="assets\rock-paper-scissors.gif" alt="Tic-Tac-Toe Terminal" width="100" height="120"/>
+   <img src="assets\rock-paper-scissors.gif" alt="Tic-Tac-Toe Terminal" width="100" height="150"/>
 
 4. Typing Speed Test
 5. Stopwatch & Timer
