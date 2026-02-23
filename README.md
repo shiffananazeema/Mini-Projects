@@ -8,13 +8,13 @@
 
 1. Calculator
 
-   <img src="assets/calculator.gif" alt="Calculator GUI" style="margin-right: 20px;" />
+   <img src="assets/calculator.gif" alt="Calculator GUI" width="100" style="margin-right: 20px;" />
    <img src="assets/terminal_calculator.gif" alt="Calculator Terminal" width="100" />
 
 2. Tic-Tac-Toe
 
-   <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" style="margin-right: 20px;" />
-   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="100"/>
+   <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" width="100" style="margin-right: 20px;" />
+   <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal"/>
 
 3. Rock-Paper-Scissors
 
