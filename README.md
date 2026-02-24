@@ -32,7 +32,10 @@
 
    <img src="assets\digital_clock.gif" alt="Digital Clock" width="150"/>
 
-7. Stopwatch & Timer
+7. Stopwatch
+
+   <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
+
 8. Temperature Conversion
 9. Typing Speed Test
 
