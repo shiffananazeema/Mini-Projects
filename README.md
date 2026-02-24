@@ -26,6 +26,7 @@
 
 5. Counter
 
+   <source srcset="assets\counter-hover.gif" media="(hover:hover)">
    <img src="assets\counter.gif" alt="Counter" width="150"/>
 
 6. Digital Clock
