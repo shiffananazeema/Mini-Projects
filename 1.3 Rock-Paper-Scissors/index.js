@@ -1,4 +1,4 @@
-const choices = ["rock", "paper", "scissors"];
+const choices = ["Rock", "Paper", "Scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
@@ -15,19 +15,19 @@ function playGame(playerChoice) {
     result = "IT'S A TIE!";
   } else {
     switch (playerChoice) {
-      case "rock":
-        result = computerChoice === "scissors" ? "YOU WIN!" : "YOU LOSE!";
+      case "Rock":
+        result = computerChoice === "Scissors" ? "YOU WIN!" : "YOU LOSE!";
         break;
-      case "paper":
-        result = computerChoice === "rock" ? "YOU WIN!" : "YOU LOSE!";
+      case "Paper":
+        result = computerChoice === "Rock" ? "YOU WIN!" : "YOU LOSE!";
         break;
-      case "scissors":
-        result = computerChoice === "paper" ? "YOU WIN!" : "YOU LOSE!";
+      case "Scissors":
+        result = computerChoice === "Paper" ? "YOU WIN!" : "YOU LOSE!";
         break;
     }
   }
 
-  playerDisplay.textContent = `PLAYER: ${playerChoice}`;
+  playerDisplay.textContent = `Player: ${playerChoice}`;
   computerDisplay.textContent = `Computer: ${computerChoice}`;
   resultDisplay.textContent = result;
 
