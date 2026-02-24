@@ -27,21 +27,18 @@
 5. Counter
 
 <picture>
-   <source srcset="assets\counter-hover.gif" media="(hover:hover)">
-   <img src="assets\counter.gif" alt="Counter" width="150"/>
+   <source srcset="assets/counter-hover.gif" media="(hover:hover)">
+   <img src="assets/counter.gif" alt="Counter" width="150"/>
 </picture>
-
 6. Digital Clock
 
    <img src="assets\digital_clock.gif" alt="Digital Clock" width="150"/>
-
 7. Stopwatch
 
 <picture>
    <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
    <source srcset="assets\stopwatch.gif" media="(hover:hover)">
 </picture>
-
 8. Temperature Conversion
 9. Typing Speed Test
 
