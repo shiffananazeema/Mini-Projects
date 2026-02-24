@@ -25,6 +25,9 @@
    <img src="assets\diceroll.gif" alt="Dice-Roll" width="150"/>
 
 5. Counter
+
+   <img src="assets\counter.gif" alt="Counter" width="150"/>
+
 6. Digital Clock
 7. Stopwatch & Timer
 8. Temperature Conversion
