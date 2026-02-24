@@ -35,6 +35,7 @@
 7. Stopwatch
 
    <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
+   <source srcset="assets\stopwatch.gif" media="(hover:hover)">
 
 8. Temperature Conversion
 9. Typing Speed Test
