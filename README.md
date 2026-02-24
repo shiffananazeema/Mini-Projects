@@ -29,6 +29,9 @@
    <img src="assets\counter.gif" alt="Counter" width="150"/>
 
 6. Digital Clock
+
+   <img src="assets\digital_clock.gif" alt="Digital Clock" width="150"/>
+
 7. Stopwatch & Timer
 8. Temperature Conversion
 9. Typing Speed Test
