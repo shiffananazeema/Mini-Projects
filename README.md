@@ -38,7 +38,7 @@
 
 8. Temperature Conversion
 
-   <img src="assets\temperature_conversion.gif" alt="Temperature Conversion" width="150"/>
+   <img src="assets\temperature_conversion.gif" alt="Temperature Conversion" width="200"/>
 
 9. Typing Speed Test
 
