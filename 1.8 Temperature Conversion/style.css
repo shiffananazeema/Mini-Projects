@@ -1,0 +1,45 @@
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: rgb(7, 153, 179);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  width: 550px;
+}
+
+.container h1 {
+  color: rgb(51, 77, 121);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.converter {
+  display: flex;
+}
+.col {
+  text-align: center;
+}
+
+.col label {
+  font-size: 1.5rem;
+}
+
+.col input {
+  width: 150px;
+  height: 40px;
+  margin: 12px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+}

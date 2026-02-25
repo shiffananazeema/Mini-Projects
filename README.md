@@ -37,6 +37,9 @@
    <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
 
 8. Temperature Conversion
+
+   <img src="assets\temperature_conversion.gif" alt="Temperature Conversion" width="150"/>
+
 9. Typing Speed Test
 
 ### 2. Storage / CRUD Apps
