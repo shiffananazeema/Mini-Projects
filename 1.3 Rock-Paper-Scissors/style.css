@@ -1,46 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   background-color: rgb(152, 196, 230);
   margin: 0;
+  padding: 24px 12px; /* add some space */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 h1 {
-  font-size: 3.5rem;
+  font-size: clamp(26px, 3.2vw, 44px);
   color: hsl(0, 0%, 20%);
+  text-align: center;
+  margin: 10px 0 18px;
 }
+
 .choices {
-  margin-bottom: 30px;
+  margin-bottom: 18px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .choices button {
-  font-size: 7.5rem;
-  min-width: 160px;
-  margin: 0 10px;
-  border-radius: 50px;
+  font-size: clamp(44px, 6vw, 80px);
+  width: clamp(90px, 12vw, 140px);
+  height: clamp(90px, 12vw, 140px);
+  border-radius: 28px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
   background-color: hsl(209, 61%, 41%);
   cursor: pointer;
-  transition: background-color 0.5s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
 }
+
 .choices button:hover {
   background-color: hsl(200, 100%, 70%);
 }
+
+.choices button:active {
+  transform: scale(0.98);
+}
+
 #playerDisplay,
 #computerDisplay {
-  font-size: 2.5rem;
+  font-size: clamp(16px, 2.2vw, 24px);
+  margin: 6px 0;
 }
+
 #resultDisplay {
-  font-size: 5rem;
-  margin: 30px 0;
+  font-size: clamp(22px, 3.5vw, 40px);
+  margin: 18px 0;
+  text-align: center;
+  min-height: 48px;
 }
+
 .scoreDisplay {
-  font-size: 2rem;
+  font-size: clamp(16px, 2vw, 22px);
+  margin: 6px 0;
 }
+
 .greenText,
 #playerScoreDisplay {
   color: hsl(121, 71%, 26%);
 }
+
 .redText,
 #computerScoreDisplay {
   color: hsl(0, 62%, 44%);
