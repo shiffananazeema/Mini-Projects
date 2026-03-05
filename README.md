@@ -16,35 +16,38 @@
 
 3. [Rock-Paper-Scissors](https://shiffananazeema.github.io/Mini-Projects/1.3%20Rock-Paper-Scissors/)
 
-   <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
+   <img src="assets/rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
 
 4. [Dice Roll](https://shiffananazeema.github.io/Mini-Projects/1.4%20Dice%20Roll/)
 
-   <img src="assets\diceroll.gif" alt="Dice-Roll" width="150"/>
+   <img src="assets/diceroll.gif" alt="Dice-Roll" width="150"/>
 
 5. [Counter](https://shiffananazeema.github.io/Mini-Projects/1.5%20Counter/)
 
-   <img src="assets\counter.gif" alt="Counter" width="150"/>
+   <img src="assets/counter.gif" alt="Counter" width="150"/>
 
 6. [Digital Clock](https://shiffananazeema.github.io/Mini-Projects/1.6%20Digital%20Clock/)
 
-   <img src="assets\digital_clock.gif" alt="Digital Clock" width="150"/>
+   <img src="assets/digital_clock.gif" alt="Digital Clock" width="150"/>
 
 7. [Stopwatch](https://shiffananazeema.github.io/Mini-Projects/1.7%20Stopwatch/)
 
-   <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
+   <img src="assets/stopwatch.gif" alt="Stopwatch" width="150"/>
 
 8. [Temperature Conversion](https://shiffananazeema.github.io/Mini-Projects/1.8%20Temperature%20Conversion/)
 
-   <img src="assets\temperature_conversion.gif" alt="Temperature Conversion" width="200"/>
+   <img src="assets/temperature_conversion.gif" alt="Temperature Conversion" width="200"/>
 
 9. [Typing Test](https://shiffananazeema.github.io/Mini-Projects/1.9%20Typing%20Test/)
 
-   <img src="assets\typing_test.gif" alt="Typing Test" width="200"/>
+   <img src="assets/typing_test.gif" alt="Typing Test" width="200"/>
 
 ## 2. Storage / CRUD Apps
 
-1. To-Do List
+1. [To-Do List](https://shiffananazeema.github.io/Mini-Projects/2.1%20To-Do%20List/)
+
+   <img src="assets/to-do_list.gif" alt="To-Do List" width="200"/>
+
 2. Notes App
 3. Bookmark Manager
 4. Contact Manager
