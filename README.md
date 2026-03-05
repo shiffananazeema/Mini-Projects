@@ -6,7 +6,7 @@
 
 <!-- markdownlint-disable MD033 -->
 
-1. <a href="https://shiffananazeema.github.io/Mini-Projects/1.1%20Calculator/" target="_blank" rel="noopener noreferrer">Calculator</a>
+1. [Calculator](https://shiffananazeema.github.io/Mini-Projects/1.1%20Calculator/)
 
    <img src="assets/calculator.gif" alt="Calculator GUI" width="100" style="margin-right: 20px;" />
    <img src="assets/terminal_calculator.gif" alt="Calculator Terminal" width="100" />
