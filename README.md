@@ -42,6 +42,8 @@
 
 9. Typing Speed Test
 
+   <img src="assets\typing_test.gif" alt="Typing Test" width="200"/>
+
 ### 2. Storage / CRUD Apps
 
 1. To-Do List
