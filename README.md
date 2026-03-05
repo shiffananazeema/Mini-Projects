@@ -6,41 +6,41 @@
 
 <!-- markdownlint-disable MD033 -->
 
-1. Calculator
+1. [Calculator](https://shiffananazeema.github.io/Mini-Projects/1.1%20Calculator/)
 
    <img src="assets/calculator.gif" alt="Calculator GUI" width="100" style="margin-right: 20px;" />
    <img src="assets/terminal_calculator.gif" alt="Calculator Terminal" width="100" />
 
-2. Tic-Tac-Toe
+2. [Tic-Tac-Toe](https://shiffananazeema.github.io/Mini-Projects/1.2%20Tic-Tac-Toe/)
 
    <img src="assets/tic-tac-toe.gif" alt="Tic-Tac-Toe" width="100" style="margin-right: 20px;" />
    <img src="assets/terminal_tictactoe.gif" alt="Tic-Tac-Toe Terminal" width="150"/>
 
-3. Rock-Paper-Scissors
+3. [Rock-Paper-Scissors](https://shiffananazeema.github.io/Mini-Projects/1.3%20Rock-Paper-Scissors/)
 
    <img src="assets\rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
 
-4. Dice Roller
+4. [Dice Roll](https://shiffananazeema.github.io/Mini-Projects/1.4%20Dice%20Roll/)
 
    <img src="assets\diceroll.gif" alt="Dice-Roll" width="150"/>
 
-5. Counter
+5. [Counter](https://shiffananazeema.github.io/Mini-Projects/1.5%20Counter/)
 
    <img src="assets\counter.gif" alt="Counter" width="150"/>
 
-6. Digital Clock
+6. [Digital Clock](https://shiffananazeema.github.io/Mini-Projects/1.6%20Digital%20Clock/)
 
    <img src="assets\digital_clock.gif" alt="Digital Clock" width="150"/>
 
-7. Stopwatch
+7. [Stopwatch](https://shiffananazeema.github.io/Mini-Projects/1.7%20Stopwatch/)
 
    <img src="assets\stopwatch.gif" alt="Stopwatch" width="150"/>
 
-8. Temperature Conversion
+8. [Temperature Conversion](https://shiffananazeema.github.io/Mini-Projects/1.8%20Temperature%20Conversion/)
 
    <img src="assets\temperature_conversion.gif" alt="Temperature Conversion" width="200"/>
 
-9. Typing Speed Test
+9. [Typing Test](https://shiffananazeema.github.io/Mini-Projects/1.9%20Typing%20Test/)
 
    <img src="assets\typing_test.gif" alt="Typing Test" width="200"/>
 
