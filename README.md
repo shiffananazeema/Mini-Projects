@@ -1,8 +1,6 @@
 # Mini-Projects
 
-## Beginner Level Projects
-
-### 1. Core Logic Apps
+## 1. Core Logic Apps
 
 <!-- markdownlint-disable MD033 -->
 
@@ -44,7 +42,7 @@
 
    <img src="assets\typing_test.gif" alt="Typing Test" width="200"/>
 
-### 2. Storage / CRUD Apps
+## 2. Storage / CRUD Apps
 
 1. To-Do List
 2. Notes App
@@ -52,7 +50,7 @@
 4. Contact Manager
 5. Personal Diary
 
-### 3. API Practice
+## 3. API Practice
 
 1. Weather App
 2. Movie Search
@@ -60,7 +58,7 @@
 4. Quote Generator
 5. Currency Converter
 
-### 4. Forms & Validation
+## 4. Forms & Validation
 
 1. Login / Signup
 2. Password Generator
@@ -68,7 +66,7 @@
 4. Survey / Quiz App
 5. Markdown Blog Viewer
 
-### 5. UI / Mini Tools
+## 5. UI / Mini Tools
 
 1. Portfolio Website
 2. Recipe List Viewer
