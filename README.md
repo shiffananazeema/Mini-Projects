@@ -48,7 +48,10 @@
 
    <img src="assets/to-do_list.gif" alt="To-Do List" width="200"/>
 
-2. Notes App
+2. [Notes App](https://shiffananazeema.github.io/Mini-Projects/2.2%20Notes%20App/)
+
+   <img src="assets/notes-app.gif" alt="Notes App" width="200"/>
+
 3. Bookmark Manager
 4. Contact Manager
 5. Personal Diary
