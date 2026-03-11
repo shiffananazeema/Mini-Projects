@@ -52,7 +52,10 @@
 
    <img src="assets/notes-app.gif" alt="Notes App" width="200"/>
 
-3. Bookmark Manager
+3. [Bookmark Manager](https://shiffananazeema.github.io/Mini-Projects/2.3%20Bookmark%20Manager/)
+
+   <img src="assets/bookmark-manager.gif" alt="Bookmark Manager" width="200"/>
+
 4. Contact Manager
 5. Personal Diary
 
