@@ -1,3 +1,5 @@
+HTML
+`````
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +11,50 @@
 </head>
 
 <body>
+    <div class="app">
+        <h1>Mini App</h1>
+    </div>
     <script src="./script.js" defer></script>
 </body>
 
 </html>
+
+
+JavaScript
+``````````
+const input = document.querySelector(...);
+const list = document.querySelector(...);
+
+let items = loadItems();
+
+function loadItems() {
+  return JSON.parse(localStorage.getItem("key")) || [];
+}
+
+function saveItems() {
+  localStorage.setItem("key", JSON.stringify(items));
+}
+
+function render() {
+  list.innerHTML = "";
+  items.forEach((item) => {
+    // create item
+    // append
+  });
+}
+
+function addItem() {
+  // get input
+  // validate
+  // push object
+  // save
+  // render
+}
+
+window.addItem = addItem;
+
+list.addEventListener("click", (e) => {
+  // handle delete/edit/toggle
+});
+
+render();

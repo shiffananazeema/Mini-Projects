@@ -1,6 +1,7 @@
 const input = document.querySelector(".title");
-const addBtn = document.querySelector(".addBtn");
-const notes = document.querySelector(".notes");
+const notesContainer = document.querySelector(".notes");
+
+let notesData = loadNotes();
 
 function formatDateTime() {
   return new Date().toLocaleString("en-AU", {
@@ -12,55 +13,57 @@ function formatDateTime() {
   });
 }
 
-function saveNotes() {
-  const allNotes = [...document.querySelectorAll(".container")].map((note) => ({
-    title: note.querySelector(".container-title").textContent,
-    text: note.querySelector(".container-note").classList.contains("empty")
-      ? ""
-      : note.querySelector(".container-note").textContent,
-    date: note.querySelector(".date").textContent,
-  }));
-
-  localStorage.setItem("notesApp", JSON.stringify(allNotes));
+function loadNotes() {
+  return JSON.parse(localStorage.getItem("notesApp")) || [];
 }
 
-function createNote(title, text = "", date = formatDateTime()) {
-  const note = document.createElement("div");
-  note.className = "container";
+function saveNotes() {
+  localStorage.setItem("notesApp", JSON.stringify(notesData));
+}
 
-  note.innerHTML = `
-    <div class="top">
-      <span class="container-title">${title}</span>
-      <span class="close">x</span>
-    </div>
-    <p class="container-note ${text ? "" : "empty"}" data-placeholder="Write the notes here...">${text}</p>
-    <span class="date">${date}</span>
-  `;
+function render() {
+  notesContainer.innerHTML = "";
 
-  notes.appendChild(note);
+  notesData.forEach((note) => {
+    const card = document.createElement("div");
+    card.className = "container";
+    card.dataset.id = note.id;
+    card.innerHTML = `
+      <div class="top">
+        <span class="container-title">${note.title}</span>
+        <span class="close">x</span>
+      </div>
+      <p class="container-note ${note.text ? "" : "empty"}" data-placeholder="Write the notes here...">${note.text}</p>
+      <span class="date">${note.date}</span>
+    `;
+    notesContainer.appendChild(card);
+  });
 }
 
 function addNote() {
   const title = input.value.trim();
   if (!title) return;
 
-  createNote(title);
-  input.value = "";
-  saveNotes();
-}
+  notesData.push({
+    id: Date.now(),
+    title,
+    text: "",
+    date: formatDateTime(),
+  });
 
-function loadNotes() {
-  const saved = JSON.parse(localStorage.getItem("notesApp")) || [];
-  saved.forEach((note) => createNote(note.title, note.text, note.date));
+  saveNotes();
+  render();
+  input.value = "";
+  input.focus();
 }
 
 function openEditor(card) {
   document.querySelector(".overlay")?.remove();
   document.querySelector(".editor")?.remove();
 
-  const titleEl = card.querySelector(".container-title");
-  const noteEl = card.querySelector(".container-note");
-  const dateEl = card.querySelector(".date");
+  const id = Number(card.dataset.id);
+  const currentNote = notesData.find((note) => note.id === id);
+  if (!currentNote) return;
 
   const overlay = document.createElement("div");
   overlay.className = "overlay";
@@ -69,13 +72,11 @@ function openEditor(card) {
   editor.className = "editor";
   editor.innerHTML = `
     <div class="top">
-      <div class="container-title" contenteditable="true">${titleEl.textContent}</div>
+      <div class="container-title" contenteditable="true">${currentNote.title}</div>
       <span class="close">x</span>
     </div>
-    <div class="container-note" contenteditable="true" data-placeholder="Write the notes here...">
-      ${noteEl.classList.contains("empty") ? "" : noteEl.textContent}
-    </div>
-    <span class="date">${dateEl.textContent}</span>
+    <div class="container-note" contenteditable="true" data-placeholder="Write the notes here...">${currentNote.text}</div>
+    <span class="date">${currentNote.date}</span>
   `;
 
   document.body.append(overlay, editor);
@@ -91,39 +92,52 @@ function openEditor(card) {
       .textContent.trim();
     const newText = editor.querySelector(".container-note").textContent.trim();
 
-    titleEl.textContent = newTitle || "Untitled";
-    noteEl.textContent = newText;
-
-    noteEl.classList.toggle("empty", !newText);
-    dateEl.textContent = formatDateTime();
+    notesData = notesData.map((note) =>
+      note.id === id
+        ? {
+            ...note,
+            title: newTitle || "Untitled",
+            text: newText,
+            date: formatDateTime(),
+          }
+        : note,
+    );
 
     saveNotes();
+    render();
     overlay.remove();
     editor.remove();
   }
 
-  overlay.onclick = closeEditor;
-  editor.querySelector(".close").onclick = closeEditor;
+  overlay.addEventListener("click", closeEditor);
+  editor.querySelector(".close").addEventListener("click", closeEditor);
 }
 
-addBtn.addEventListener("click", addNote);
+window.addNote = addNote;
 
 input.addEventListener("keydown", (e) => {
   if (e.key === "Enter") addNote();
 });
 
-notes.addEventListener("click", (e) => {
+notesContainer.addEventListener("click", (e) => {
+  const card = e.target.closest(".container");
+  if (!card) return;
+
+  const id = Number(card.dataset.id);
+
   if (e.target.classList.contains("close")) {
-    e.target.closest(".container").remove();
+    notesData = notesData.filter((note) => note.id !== id);
     saveNotes();
+    render();
+    return;
   }
 
   if (
     e.target.classList.contains("container-title") ||
     e.target.classList.contains("container-note")
   ) {
-    openEditor(e.target.closest(".container"));
+    openEditor(card);
   }
 });
 
-loadNotes();
+render();

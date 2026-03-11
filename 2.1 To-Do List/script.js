@@ -1,55 +1,52 @@
 const input = document.querySelector(".task");
 const list = document.querySelector(".list");
 
+let tasks = loadTasks();
+
 function loadTasks() {
   return JSON.parse(localStorage.getItem("tasks")) || [];
 }
 
-function saveTasks(tasks) {
+function saveTasks() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
-}
-
-let tasks = loadTasks();
-
-function addCloseButton(li) {
-  const span = document.createElement("span");
-  span.className = "close";
-  span.textContent = "×";
-  li.appendChild(span);
 }
 
 function render() {
   list.innerHTML = "";
-  tasks.forEach((t) => {
+
+  tasks.forEach((task) => {
     const li = document.createElement("li");
-    li.textContent = t.title;
-    li.dataset.id = String(t.id);
+    li.dataset.id = task.id;
+    li.innerHTML = `${task.title}<span class="close">×</span>`;
 
-    if (t.done) li.classList.add("checked");
+    if (task.done) {
+      li.classList.add("checked");
+    }
 
-    addCloseButton(li);
     list.appendChild(li);
   });
 }
 
-function newTask() {
+function addTask() {
   const title = input.value.trim();
   if (!title) return;
 
-  const task = { id: Date.now(), title, done: false };
-  tasks.push(task);
+  tasks.push({
+    id: Date.now(),
+    title,
+    done: false,
+  });
 
-  saveTasks(tasks);
+  saveTasks();
   render();
-
   input.value = "";
   input.focus();
 }
 
-window.newTask = newTask;
+window.newTask = addTask;
 
 input.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") newTask();
+  if (e.key === "Enter") addTask();
 });
 
 list.addEventListener("click", (e) => {
@@ -59,14 +56,14 @@ list.addEventListener("click", (e) => {
   const id = Number(li.dataset.id);
 
   if (e.target.classList.contains("close")) {
-    tasks = tasks.filter((t) => t.id !== id);
-    saveTasks(tasks);
-    render();
-    return;
+    tasks = tasks.filter((task) => task.id !== id);
+  } else {
+    tasks = tasks.map((task) =>
+      task.id === id ? { ...task, done: !task.done } : task,
+    );
   }
 
-  tasks = tasks.map((t) => (t.id === id ? { ...t, done: !t.done } : t));
-  saveTasks(tasks);
+  saveTasks();
   render();
 });
 

@@ -1,4 +1,20 @@
-# Mini-Projects
+# Web Development Mini Projects
+
+A collection of beginner web development projects built using **HTML, CSS, and JavaScript**.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Quick Navigation
+
+- [Core Logic Apps](#1-core-logic-apps)
+- [Storage / CRUD Apps](#2-storage--crud-apps)
+- [API Practice](#3-api-practice)
+- [Forms & Validation](#4-forms--validation)
+- [UI / Mini Tools](#5-ui--mini-tools)
 
 ## 1. Core Logic Apps
 
@@ -57,7 +73,7 @@
    <img src="assets/bookmark-manager.gif" alt="Bookmark Manager" width="200"/>
 
 4. Contact Manager
-5. Personal Diary
+5. Expense Tracker
 
 ## 3. API Practice
 
