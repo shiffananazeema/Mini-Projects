@@ -72,7 +72,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/bookmark-manager.gif" alt="Bookmark Manager" width="200"/>
 
-4. Contact Manager
+4. [Contact Manager](https://shiffananazeema.github.io/Mini-Projects/2.4%20Contact%20Manager/)
+
+   <img src="assets/contact_manager.gif" alt="Contact Manager" width="200"/>
+
 5. Expense Tracker
 
 ## 3. API Practice
