@@ -76,7 +76,9 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/contact_manager.gif" alt="Contact Manager" width="200"/>
 
-5. Expense Tracker
+5. [Expense Tracker](https://shiffananazeema.github.io/Mini-Projects/2.5%20Expense%20Tracker/)
+
+   <img src="assets/expense_tracker.gif" alt="Expense Tracker" width="200"/>
 
 ## 3. API Practice
 
