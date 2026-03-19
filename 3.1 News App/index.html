@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <h1>News App</h1>
+            <p>Latest headlines in one place</p>
+        </header>
+
+        <section class="top-bar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search news..." />
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="categories">
+                <button class="category-btn active" data-category="general">General</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+                <button class="category-btn" data-category="business">Business</button>
+                <button class="category-btn" data-category="sports">Sports</button>
+                <button class="category-btn" data-category="health">Health</button>
+                <button class="category-btn" data-category="science">Science</button>
+            </div>
+        </section>
+
+        <p id="message" class="message"></p>
+
+        <section id="newsContainer" class="news-list"></section>
+    </div>
+</body>
+
+</html>
