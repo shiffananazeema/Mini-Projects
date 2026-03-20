@@ -82,18 +82,11 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
 ## 3. API Practice
 
-1. <a href="https://shiffananazeema.github.io/Mini-Projects/3.1%20News%20App/" target="_blank" rel="noopener noreferrer">News App</a>
+1. [News App](https://shiffananazeema.github.io/Mini-Projects/3.1%20News%20App/)
 
-   <a href="https://shiffananazeema.github.io/Mini-Projects/3.1%20News%20App/" target="_blank" rel="noopener noreferrer">
-      <img src="assets/news_app.gif" alt="News App" width="200"/>
-   </a>
+   <img src="assets/news_app.gif" alt="News App" width="200"/>
 
-2. <a href="https://shiffananazeema.github.io/Mini-Projects/3.1%20News%20App/" target="_blank">News App</a>
-
-   <a href="https://shiffananazeema.github.io/Mini-Projects/3.1%20News%20App/" target="_blank">
-      <img src="assets/news_app.gif" alt="News App" width="200"/>
-   </a>
-
+2. Weather App
 3. Movie Search
 4. GitHub User Search
 5. Currency Converter
