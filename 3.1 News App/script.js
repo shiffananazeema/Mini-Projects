@@ -4,7 +4,7 @@ const newsContainer = document.querySelector("#newsContainer");
 const message = document.querySelector("#message");
 const categoryButtons = document.querySelectorAll(".category-btn");
 
-const API_KEY = "3f55316c07cb4b074a076346b8ac101f";
+const API_KEY = "YOUR_API_KEY";
 
 let articles = [];
 let currentCategory = "general";
