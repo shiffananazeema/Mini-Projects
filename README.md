@@ -90,7 +90,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/weather_app.gif" alt="Weather App" width="200"/>
 
-3. Movie Search
+3. [Movie Search](https://shiffananazeema.github.io/Mini-Projects/3.3%20Movie%20Search/)
+
+   <img src="assets/movie_search.gif" alt="Movie Search" width="200"/>
+
 4. GitHub User Search
 5. Currency Converter
 
