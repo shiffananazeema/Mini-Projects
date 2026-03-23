@@ -3,7 +3,7 @@ const searchBtn = document.querySelector("#searchBtn");
 const weatherContainer = document.querySelector("#weatherContainer");
 const message = document.querySelector("#message");
 
-const API_KEY = "8bea1b4b247da0f1f9ee79799475db08";
+const API_KEY = "YOUR_API_KEY";
 
 let weatherData = null;
 
