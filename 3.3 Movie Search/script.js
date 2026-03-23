@@ -11,7 +11,7 @@ const movieModal = document.querySelector("#movieModal");
 const modalBody = document.querySelector("#modalBody");
 const closeModal = document.querySelector("#closeModal");
 
-const API_KEY = "e742cef";
+const API_KEY = "YOUR_API_KEY";
 
 let currentSearch = "";
 let currentPage = 1;
