@@ -86,7 +86,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/news_app.gif" alt="News App" width="200"/>
 
-2. Weather App
+2. [Weather App](https://shiffananazeema.github.io/Mini-Projects/3.2%20Weather%20App/)
+
+   <img src="assets/weather_app.gif" alt="Weather App" width="200"/>
+
 3. Movie Search
 4. GitHub User Search
 5. Currency Converter
