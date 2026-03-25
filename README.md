@@ -98,7 +98,9 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
 
-5. Currency Converter
+5. [Currency Converter](https://shiffananazeema.github.io/Mini-Projects/3.5%20Currency%20Converter/)
+
+   <img src="assets/currency_converter.gif" alt="Currency Converter" width="200"/>
 
 ## 4. Forms & Validation
 
