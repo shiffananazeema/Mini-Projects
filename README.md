@@ -108,7 +108,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/login_signup.gif" alt="Login / Signup" width="200"/>
 
-2. Password Generator
+2. [Password Generator](https://shiffananazeema.github.io/Mini-Projects/4.2%20Password%20Generator/)
+
+   <img src="assets/password_generator.gif" alt="Password Generator" width="200"/>
+
 3. Multi-Step Form
 4. Survey / Quiz App
 5. Contact Form Validation
