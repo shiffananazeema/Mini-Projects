@@ -94,7 +94,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/movie_search.gif" alt="Movie Search" width="200"/>
 
-4. GitHub User Search
+4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.4%20Github%20User%20Search/)
+
+   <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
+
 5. Currency Converter
 
 ## 4. Forms & Validation
