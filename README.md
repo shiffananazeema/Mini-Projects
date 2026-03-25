@@ -104,11 +104,14 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
 ## 4. Forms & Validation
 
-1. Login / Signup
+1. [Login / Signup](https://shiffananazeema.github.io/Mini-Projects/4.1%20Login%20Signup/)
+
+   <img src="assets/login_signup.gif" alt="Login / Signup" width="200"/>
+
 2. Password Generator
 3. Multi-Step Form
 4. Survey / Quiz App
-5. Markdown Blog Viewer
+5. Contact Form Validation
 
 ## 5. UI / Mini Tools
 
