@@ -118,9 +118,11 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
 4. [Multi-Step Form](https://shiffananazeema.github.io/Mini-Projects/4.4%20Multi-Step%20Form/)
 
-   <img src="assets/multi_step_form.gif" alt="Multi-Step Formm" width="200"/>
+   <img src="assets/multi_step_form.gif" alt="Multi-Step Form" width="200"/>
 
-5. Survey / Quiz App
+5. [Quiz App](https://shiffananazeema.github.io/Mini-Projects/4.5%20Quiz%20App/)
+
+   <img src="assets/quiz_app.gif" alt="Quiz App" width="200"/>
 
 ## 5. UI / Mini Tools
 
