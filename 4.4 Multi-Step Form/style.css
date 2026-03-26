@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #0f172a 0%, #2e5695 40%);
+  color: #111827;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 38% 62%;
+}
+
+.left-panel {
+  padding: 60px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-box {
+  max-width: 360px;
+  color: #ffffff;
+}
+
+.small-text {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 18px;
+}
+
+.brand-box h1 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.right-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 760px;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 28px;
+  padding: 40px;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #dbe3ee;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 33.33%;
+  background: linear-gradient(90deg, #5685ec, #4f3aed);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.step-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #6b7280;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.step-circle.active {
+  background: #111827;
+  color: #ffffff;
+}
+
+.form-step {
+  display: none;
+}
+
+.form-step.active {
+  display: block;
+}
+
+.form-step h2 {
+  font-size: 34px;
+  margin-bottom: 28px;
+  color: #111827;
+}
+
+.input-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.two-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 9px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.input-group input {
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 16px;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+.error {
+  display: block;
+  min-height: 18px;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #dc2626;
+}
+
+.button-row {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.button-row.end {
+  justify-content: flex-end;
+}
+
+button {
+  min-width: 130px;
+  height: 52px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.next-btn,
+.submit-btn {
+  background: #111827;
+  color: #ffffff;
+}
+
+.prev-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+#successMessage {
+  min-height: 24px;
+  margin-top: 20px;
+  text-align: center;
+  color: #15803d;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media (max-width: 950px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+
+  .left-panel {
+    padding: 40px 25px 10px;
+  }
+
+  .brand-box {
+    max-width: 100%;
+  }
+
+  .brand-box h1 {
+    font-size: 38px;
+  }
+
+  .right-panel {
+    padding: 20px;
+  }
+
+  .form-wrapper {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 650px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .step-header {
+    gap: 12px;
+  }
+
+  .step-circle {
+    width: 42px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+  .form-step h2 {
+    font-size: 28px;
+  }
+
+  .button-row {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
