@@ -5,7 +5,7 @@ const shortUrl = document.getElementById("shortUrl");
 const copyBtn = document.getElementById("copyBtn");
 const message = document.getElementById("message");
 
-const API_TOKEN = "YOUR_API_TOKEN_TINYURL";
+const API_TOKEN = "YOUR_TINYURL_API_TOKEN";
 
 function isValidUrl(value) {
   try {
