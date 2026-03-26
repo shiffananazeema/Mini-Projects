@@ -130,7 +130,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/theme_switcher.gif" alt="Theme Switcher" width="200"/>
 
-2. Image Gallery
+2. [Image Gallery](https://shiffananazeema.github.io/Mini-Projects/5.2%20Image%20Gallery/)
+
+   <img src="assets/image_gallery.gif" alt="Image Gallery" width="200"/>
+
 3. Recipe List Viewer
 4. URL Shortener UI
 5. Portfolio Website
