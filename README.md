@@ -138,7 +138,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/recipe_list.gif" alt="Recipe List Viewer" width="200"/>
 
-4. URL Shortener UI
+4. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/5.4%20URL%20Shortener/)
+
+   <img src="assets/url_shortener.gif" alt="URL Shortener" width="200"/>
+
 5. Portfolio Website
 
 <!-- markdownlint-enable MD033 -->
