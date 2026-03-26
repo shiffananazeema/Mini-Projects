@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe List Viewer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Recipe List Viewer</h1>
+        <p class="subtitle">Search recipes and view ingredients and steps.</p>
+
+        <input type="text" id="searchInput" placeholder="Search recipes..." />
+
+        <div class="recipe-list" id="recipeList">
+            <div class="recipe-card" data-name="Chicken Biryani"
+                data-ingredients="2 cups basmati rice, 500g chicken, 1 sliced onion, 2 tomatoes, 1 cup yogurt, 2 tsp biryani masala, salt, oil"
+                data-steps="Wash and soak the rice.|Cook onions in oil until golden.|Add chicken, tomatoes, yogurt, masala, and salt.|Cook until chicken is tender.|Add rice and enough water.|Cook until rice is done and serve hot.">
+                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80"
+                    alt="Chicken Biryani">
+                <div class="recipe-content">
+                    <h2>Chicken Biryani</h2>
+                    <p>A flavorful rice dish cooked with chicken and spices.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-name="Pasta Alfredo"
+                data-ingredients="200g pasta, 2 tbsp butter, 3 garlic cloves, 1 cup cream, 1 cup parmesan cheese, salt, pepper"
+                data-steps="Boil the pasta and drain it.|Melt butter in a pan and cook garlic.|Add cream, salt, and pepper.|Mix in parmesan cheese.|Add pasta and toss well.|Serve warm.">
+                <img src="https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80"
+                    alt="Pasta Alfredo">
+                <div class="recipe-content">
+                    <h2>Pasta Alfredo</h2>
+                    <p>Creamy pasta made with cheese, butter, and garlic.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-name="Vegetable Salad"
+                data-ingredients="Lettuce, cucumber, tomato, carrot, onion, olive oil, lemon juice, salt, pepper"
+                data-steps="Wash and chop all vegetables.|Place them in a large bowl.|Add olive oil, lemon juice, salt, and pepper.|Mix well and serve fresh.">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80"
+                    alt="Vegetable Salad">
+                <div class="recipe-content">
+                    <h2>Vegetable Salad</h2>
+                    <p>A fresh mix of vegetables with a light dressing.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-name="Grilled Sandwich"
+                data-ingredients="4 bread slices, 2 cheese slices, tomato, onion, butter, salt, pepper"
+                data-steps="Place cheese and sliced vegetables between bread slices.|Add a little salt and pepper.|Apply butter on the outside of the bread.|Grill until golden brown.|Cut and serve.">
+                <img src="https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80"
+                    alt="Grilled Sandwich">
+                <div class="recipe-content">
+                    <h2>Grilled Sandwich</h2>
+                    <p>Toasted bread filled with vegetables and cheese.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-name="Fruit Bowl"
+                data-ingredients="Apple, banana, grapes, orange, pomegranate, honey, mint leaves"
+                data-steps="Wash and cut all fruits.|Place them in a bowl.|Add a little honey if needed.|Mix gently and garnish with mint leaves.|Serve chilled.">
+                <img src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=800&q=80"
+                    alt="Fruit Bowl">
+                <div class="recipe-content">
+                    <h2>Fruit Bowl</h2>
+                    <p>A healthy bowl of mixed fresh fruits.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+
+            <div class="recipe-card" data-name="Paneer Curry"
+                data-ingredients="250g paneer, 2 onions, 2 tomatoes, 1 tsp ginger garlic paste, 1 tsp chili powder, 1 tsp garam masala, salt, oil"
+                data-steps="Cook chopped onions in oil until soft.|Add ginger garlic paste and tomatoes.|Cook until the masala thickens.|Add spices and salt.|Add paneer cubes and mix gently.|Cook for a few minutes and serve.">
+                <img src="https://images.unsplash.com/photo-1690401767645-595de0e0e5f8?auto=format&fit=crop&w=800&q=80"
+                    alt="Paneer Curry">
+                <div class="recipe-content">
+                    <h2>Paneer Curry</h2>
+                    <p>A rich and spicy curry made with soft paneer cubes.</p>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="recipeModal">
+        <div class="modal-box">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2 id="modalTitle"></h2>
+
+            <h3>Ingredients</h3>
+            <ul id="modalIngredients"></ul>
+
+            <h3>How to Make</h3>
+            <ol id="modalSteps"></ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

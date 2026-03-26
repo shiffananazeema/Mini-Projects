@@ -134,7 +134,10 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/image_gallery.gif" alt="Image Gallery" width="200"/>
 
-3. Recipe List Viewer
+3. [Recipe List Viewer](https://shiffananazeema.github.io/Mini-Projects/5.3%20Recipe%20List%20Viewer/)
+
+   <img src="assets/recipe_list.gif" alt="Recipe List Viewer" width="200"/>
+
 4. URL Shortener UI
 5. Portfolio Website
 
