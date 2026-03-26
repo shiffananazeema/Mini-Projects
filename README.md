@@ -94,13 +94,13 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/movie_search.gif" alt="Movie Search" width="200"/>
 
-4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.4%20Github%20User%20Search/)
-
-   <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
-
-5. [Currency Converter](https://shiffananazeema.github.io/Mini-Projects/3.5%20Currency%20Converter/)
+4. [Currency Converter](https://shiffananazeema.github.io/Mini-Projects/3.5%20Currency%20Converter/)
 
    <img src="assets/currency_converter.gif" alt="Currency Converter" width="200"/>
+
+5. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/5.4%20URL%20Shortener/)
+
+   <img src="assets/url_shortener.gif" alt="URL Shortener" width="200"/>
 
 ## 4. Forms & Validation
 
@@ -138,9 +138,9 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/recipe_list.gif" alt="Recipe List Viewer" width="200"/>
 
-4. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/5.4%20URL%20Shortener/)
+4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.4%20Github%20User%20Search/)
 
-   <img src="assets/url_shortener.gif" alt="URL Shortener" width="200"/>
+   <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
 
 5. Portfolio Website
 
