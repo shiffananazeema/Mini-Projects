@@ -126,10 +126,13 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
 ## 5. UI / Mini Tools
 
-1. Portfolio Website
-2. Recipe List Viewer
-3. Theme Switcher
-4. Image Gallery
-5. URL Shortener
+1. [Theme Switcher](https://shiffananazeema.github.io/Mini-Projects/5.1%20Theme%20Switcher/)
+
+   <img src="assets/theme_switcher.gif" alt="Theme Switcher" width="200"/>
+
+2. Image Gallery
+3. Recipe List Viewer
+4. URL Shortener UI
+5. Portfolio Website
 
 <!-- markdownlint-enable MD033 -->
