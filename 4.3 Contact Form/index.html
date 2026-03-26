@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "QcWgPf3BV-5k2X8ZG"
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Contact Form</h1>
+
+            <form id="contactForm">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="from_name" placeholder="Enter your full name" />
+                    <small class="error" id="nameError"></small>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="from_email" placeholder="Enter your email" />
+                    <small class="error" id="emailError"></small>
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject" />
+                    <small class="error" id="subjectError"></small>
+                </div>
+
+                <div class="input-group">
+                    <label for="messageInput">Message</label>
+                    <textarea id="messageInput" name="message" rows="5" placeholder="Enter your message"></textarea>
+                    <small class="error" id="messageError"></small>
+                </div>
+
+                <button type="submit" id="submitBtn">Send Message</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
