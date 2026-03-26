@@ -11,8 +11,8 @@ const subjectError = document.getElementById("subjectError");
 const messageError = document.getElementById("messageError");
 const formMessage = document.getElementById("formMessage");
 
-const SERVICE_ID = "service_mg7xj65";
-const TEMPLATE_ID = "template_cqbcpak";
+const SERVICE_ID = "YOUR_SERVICE_ID";
+const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
 
 function clearErrors() {
   nameError.textContent = "";
