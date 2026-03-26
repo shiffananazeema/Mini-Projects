@@ -6,50 +6,52 @@
 }
 
 body {
-  background: #f3f4f6;
+  background: #536997;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 16px;
 }
 
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 430px;
 }
 
 .form-box {
   background: #ffffff;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   color: #111827;
+  font-size: 26px;
 }
 
 .input-group {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #111827;
   font-weight: bold;
+  font-size: 14px;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 10px 12px;
   border: 1px solid #d1d5db;
-  border-radius: 10px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 14px;
   resize: none;
 }
 
@@ -61,26 +63,26 @@ textarea:focus {
 
 .error {
   display: block;
-  min-height: 18px;
-  margin-top: 6px;
+  min-height: 16px;
+  margin-top: 5px;
   color: #dc2626;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #submitBtn {
   width: 100%;
-  padding: 12px;
+  padding: 11px;
   border: none;
-  border-radius: 10px;
-  background: #1f2937;
+  border-radius: 8px;
+  background: #394d6a;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 #submitBtn:hover {
-  background: #111827;
+  background: #6d86bd;
 }
 
 #submitBtn:disabled {
@@ -89,10 +91,11 @@ textarea:focus {
 }
 
 #formMessage {
-  min-height: 24px;
-  margin-top: 18px;
+  min-height: 20px;
+  margin-top: 14px;
   text-align: center;
   font-weight: bold;
+  font-size: 13px;
 }
 
 .success {
