@@ -94,11 +94,11 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/movie_search.gif" alt="Movie Search" width="200"/>
 
-4. [Currency Converter](https://shiffananazeema.github.io/Mini-Projects/3.5%20Currency%20Converter/)
+4. [Currency Converter](https://shiffananazeema.github.io/Mini-Projects/3.4%20Currency%20Converter/)
 
    <img src="assets/currency_converter.gif" alt="Currency Converter" width="200"/>
 
-5. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/5.4%20URL%20Shortener/)
+5. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/3.5%20URL%20Shortener/)
 
    <img src="assets/url_shortener.gif" alt="URL Shortener" width="200"/>
 
