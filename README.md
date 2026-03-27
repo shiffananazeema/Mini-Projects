@@ -34,9 +34,9 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/rock-paper-scissors.gif" alt="Rock-Paper-Scissors" width="150"/>
 
-4. [Dice Roll](https://shiffananazeema.github.io/Mini-Projects/1.4%20Dice%20Roll/)
+4. [Dice Roller](https://shiffananazeema.github.io/Mini-Projects/1.4%20Dice%20Roller/)
 
-   <img src="assets/diceroll.gif" alt="Dice-Roll" width="150"/>
+   <img src="assets/diceroller.gif" alt="Dice Roller" width="150"/>
 
 5. [Counter](https://shiffananazeema.github.io/Mini-Projects/1.5%20Counter/)
 
@@ -50,9 +50,9 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/stopwatch.gif" alt="Stopwatch" width="150"/>
 
-8. [Temperature Conversion](https://shiffananazeema.github.io/Mini-Projects/1.8%20Temperature%20Conversion/)
+8. [Temperature Converter](https://shiffananazeema.github.io/Mini-Projects/1.8%20Temperature%20Converter/)
 
-   <img src="assets/temperature_conversion.gif" alt="Temperature Conversion" width="200"/>
+   <img src="assets/temperature_converter.gif" alt="Temperature Converter" width="200"/>
 
 9. [Typing Test](https://shiffananazeema.github.io/Mini-Projects/1.9%20Typing%20Test/)
 
@@ -98,7 +98,11 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/currency_converter.gif" alt="Currency Converter" width="200"/>
 
-5. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/3.5%20URL%20Shortener/)
+5. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.5%20Github%20User%20Search/)
+
+   <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
+
+6. [URL Shortener](https://shiffananazeema.github.io/Mini-Projects/3.6%20URL%20Shortener/)
 
    <img src="assets/url_shortener.gif" alt="URL Shortener" width="200"/>
 
@@ -138,12 +142,12 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/recipe_list.gif" alt="Recipe List Viewer" width="200"/>
 
-4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/5.4%20Github%20User%20Search/)
-
-   <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
-
-5. [QR Code Generator](https://shiffananazeema.github.io/Mini-Projects/5.5%20QR%20Code%20Generator/)
+4. [QR Code Generator](https://shiffananazeema.github.io/Mini-Projects/5.4%20QR%20Code%20Generator/)
 
    <img src="assets/qr_code_generator.gif" alt="QR Code Generator" width="200"/>
+
+5. [Testimonial Slider](https://shiffananazeema.github.io/Mini-Projects/5.5%20Testimonial%20Slider/)
+
+   <img src="assets/testimonial_slider.gif" alt="Testimonial Slider" width="200"/>
 
 <!-- markdownlint-enable MD033 -->
