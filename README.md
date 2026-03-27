@@ -146,8 +146,8 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/qr_code_generator.gif" alt="QR Code Generator" width="200"/>
 
-5. [Testimonial Slider](https://shiffananazeema.github.io/Mini-Projects/5.5%20Testimonial%20Slider/)
+5. [Quote Generator](https://shiffananazeema.github.io/Mini-Projects/5.5%20Quote%20Generator/)
 
-   <img src="assets/testimonial_slider.gif" alt="Testimonial Slider" width="200"/>
+   <img src="assets/quote_generator.gif" alt="Quote Generator" width="200"/>
 
 <!-- markdownlint-enable MD033 -->
