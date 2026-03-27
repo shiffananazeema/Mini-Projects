@@ -98,7 +98,7 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/currency_converter.gif" alt="Currency Converter" width="200"/>
 
-5. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.5%20Github%20User%20Search/)
+5. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.5%20GitHub%20User%20Search/)
 
    <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
 
