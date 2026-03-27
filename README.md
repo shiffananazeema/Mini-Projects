@@ -1,6 +1,6 @@
 # Web Development Mini Projects
 
-A collection of beginner web development projects built using **HTML, CSS, and JavaScript**.
+A collection of beginner web development projects built using **HTML, CSS, and JavaScript**, focusing on real-world applications, API integration, and user interface design.
 
 ## Technologies Used
 
