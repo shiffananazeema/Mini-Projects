@@ -112,7 +112,7 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/password_generator.gif" alt="Password Generator" width="200"/>
 
-3. [Contact From](https://shiffananazeema.github.io/Mini-Projects/4.3%20Contact%20Form/)
+3. [Contact Form](https://shiffananazeema.github.io/Mini-Projects/4.3%20Contact%20Form/)
 
    <img src="assets/contact_form.gif" alt="Contact Form" width="200"/>
 
@@ -138,10 +138,12 @@ A collection of beginner web development projects built using **HTML, CSS, and J
 
    <img src="assets/recipe_list.gif" alt="Recipe List Viewer" width="200"/>
 
-4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/3.4%20Github%20User%20Search/)
+4. [GitHub User Search](https://shiffananazeema.github.io/Mini-Projects/5.4%20Github%20User%20Search/)
 
    <img src="assets/github_search.gif" alt="Github User Search" width="200"/>
 
-5. Portfolio Website
+5. [QR Code Generator](https://shiffananazeema.github.io/Mini-Projects/5.5%20QR%20Code%20Generator/)
+
+   <img src="assets/qr_code_generator.gif" alt="QR Code Generator" width="200"/>
 
 <!-- markdownlint-enable MD033 -->
